@@ -80,7 +80,7 @@ public class CreateLead {
 		drpdwn4.selectByIndex(1);
 		WebElement drop5 = driver.findElement(By.id("createLeadForm_currencyUomId"));
 		Select drpdwn5 = new Select(drop5);
-		drpdwn5.selectByValue("ARA - Argentinian Austral");
+		drpdwn5.selectByValue("USD");
 		WebElement drop6 = driver.findElement(By.id("createLeadForm_generalStateProvinceGeoId"));
 		Select drpdwn6 = new Select(drop6);
 		drpdwn6.selectByValue("California");
